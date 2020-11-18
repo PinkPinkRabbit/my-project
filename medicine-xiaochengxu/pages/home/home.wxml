@@ -1,0 +1,81 @@
+<!-- 头部 -->
+<view class="header">
+  <view class="input">
+    <image src="http://cloud.axureshop.com/gsc/W0W8DI/39/f8/e8/39f8e8131dbf4652b23ba4680870bd58/images/首页/u100.svg?token=3ced7fad170c3048dbebdff734342093b3478d146ddd4a4a46a7ba2f8990ec42"></image>
+    <view class="ipt-wrap">
+      <input type="text" placeholder="请输入关键字" class="ipt"/>
+    </view>
+  </view>
+  <view class="swiper">
+  <swiper class="swiper" 
+  indicator-dots="{{true}}"
+  indicator-color="{{swiperColor}}"
+  indicator-active-color="{{ activeColor}}"
+  autoplay="{{true}}"
+  >
+    <swiper-item wx:for="{{path}}" wx:key="id">
+      <image src="{{item.src}}"></image>
+    </swiper-item>
+  </swiper>
+</view>
+</view>
+<!-- 中间导航栏一 -->
+<view class="middle-nav">
+ 
+  <view class="middle-wrap">
+    <image src="http://cloud.axureshop.com/gsc/W0W8DI/39/f8/e8/39f8e8131dbf4652b23ba4680870bd58/images/首页/u96.png?token=10747eb83cca611c24ec042762639156c378567e663f79ff6eb1e97a1b0a5ba4"></image>
+    <text>正品保证</text>
+  </view>
+    <view class="middle-wrap">
+    <image src="http://cloud.axureshop.com/gsc/W0W8DI/39/f8/e8/39f8e8131dbf4652b23ba4680870bd58/images/首页/u95.png?token=9eb787f577225d3d4dc6c8b3fb6e3968d09e8c2ea5511242d7d3624aae53255e"></image>
+    <text>厂家授权</text>
+  </view>
+  <view class="middle-wrap">
+    <image src="http://cloud.axureshop.com/gsc/W0W8DI/39/f8/e8/39f8e8131dbf4652b23ba4680870bd58/images/首页/u98.png?token=0a6bca7f2b7f3b73e9a10eb276f0b4097154a2a2d6eebc17867e0cb053ce7759"></image>
+    <text>隐私包装</text>
+  </view>
+</view>
+
+<!-- 中间导航栏二 -->
+<view class="middle">
+  <view class="middle-detail">
+    <view>
+      <image src="http://cloud.axureshop.com/gsc/W0W8DI/39/f8/e8/39f8e8131dbf4652b23ba4680870bd58/images/首页/u62.png?token=091622c3bfc19f45ef1e93d1c5ca82e0febb0bc63295501388833fcf7033a5d3"></image>
+      <image src="http://cloud.axureshop.com/gsc/W0W8DI/39/f8/e8/39f8e8131dbf4652b23ba4680870bd58/images/首页/u63.png?token=e428ff5398244795434da4d3cc89fe76debfead405fbcf4c3098b6b2cfd50ede">
+      </image>
+    </view>
+    <text>
+      对症找药
+    </text>
+  </view>
+  <view  class="middle-detail">
+    <view>
+      <image src="http://cloud.axureshop.com/gsc/W0W8DI/39/f8/e8/39f8e8131dbf4652b23ba4680870bd58/images/首页/u67.png?token=0cf029d9fb8af9c5263daa54a315cff9b7e3592fc4308b4c4f10b4a1823753b4"></image>
+      <image src="http://cloud.axureshop.com/gsc/W0W8DI/39/f8/e8/39f8e8131dbf4652b23ba4680870bd58/images/首页/u68.png?token=cf0ab1f7ff1ff29c08067fd28ec32ea28f103cc44a171c9ec747e2700a45b0fa">
+      </image>
+    </view>
+    <text>
+      劲爆秒杀
+    </text>
+  </view>
+  <view  class="middle-detail">
+    <view>
+      <image src="http://cloud.axureshop.com/gsc/W0W8DI/39/f8/e8/39f8e8131dbf4652b23ba4680870bd58/images/首页/u77.png?token=f7dc3924bacc2042cc21004d344852edf9c8702cec48d996cbbdd061a48df594"></image>
+      <image src="http://cloud.axureshop.com/gsc/W0W8DI/39/f8/e8/39f8e8131dbf4652b23ba4680870bd58/images/首页/u78.png?token=7a00684a0222047d46dd2efe2cbeba9c6cfe02d2cdf949406250eb87c33253f3">
+      </image>
+    </view>
+    <text>
+      折扣拼团
+    </text>
+  </view>
+  <view  class="middle-detail">
+    <view>
+      <image src="http://cloud.axureshop.com/gsc/W0W8DI/39/f8/e8/39f8e8131dbf4652b23ba4680870bd58/images/首页/u72.png?token=2503fe725506d0e375c1acb77285f191b5f01550cf81fc8d045e95a4452f7228"></image>
+      <image src="http://cloud.axureshop.com/gsc/W0W8DI/39/f8/e8/39f8e8131dbf4652b23ba4680870bd58/images/首页/u73.png?token=0f03636d4bd4ebe7e26504c97eddf416980b371015e200c8557bb981d3889be7">
+      </image>
+    </view>
+    <text>
+      用药咨询
+    </text>
+  </view>
+</view>

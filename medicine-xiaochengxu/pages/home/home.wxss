@@ -1,0 +1,116 @@
+page{
+  background-color: #dddddd;
+}
+.header{
+  width: 100%;
+  height: 500rpx;
+  position: relative;
+}
+.input{
+  position: absolute;
+  top: 10rpx;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20rpx;
+}
+.input image{
+  width: 50rpx;
+  height: 50rpx;
+  z-index: 10;
+  margin-right: 20rpx;
+}
+.ipt-wrap{
+  flex: 1;
+  z-index: 10;
+}
+.ipt{
+  width: 100%;
+  height: 50rpx;
+  background-color: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(242, 242, 242, 1);
+  border-radius: 25rpx;
+  padding-left: 50rpx;
+  background-repeat: no-repeat;
+  background-position: 10rpx;
+  background-image: url('http://cloud.axureshop.com/gsc/W0W8DI/39/f8/e8/39f8e8131dbf4652b23ba4680870bd58/images/首页/u199.png?token=2483a75b0cd86bcb6ce36b1c2acef2194bb75443999dbbe36dbeccbe3d9f492c') ;
+}
+.swiper{
+  width: 100%;
+  height: 100%;
+}
+.swiper image{
+  width: 100%;
+  height: 100%;
+}
+.middle-nav{
+  width: 100%;
+  height: 40rpx;
+  background-color:#ffffff;
+  display: flex;
+  padding:  10rpx 40rpx;
+  flex-direction: row;
+}
+.middle-wrap{
+  width: 33.33%;
+  flex-direction: row;
+}
+.middle-wrap image{
+  position: relative;
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+  top: 10rpx;
+}
+.middle-wrap text{
+  font-family: 'å¾®è½¯é›…é»‘';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26rpx;
+  line-height: 40rpx;
+}
+
+.middle{
+  margin-top: 20rpx;
+  width: 100%;
+  height: 100rpx;
+  background-color: #ffffff;
+  display: flex;
+  padding: 40rpx 20rpx;
+}
+.middle-detail{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.middle-detail image:nth-child(1){
+  position: relative;
+  top: 10rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.middle-detail image:nth-child(2){
+  position: relative;
+  width: 40rpx;
+  left: -50rpx;
+  height: 40rpx;
+}
+.detail-image{
+  position: relative;
+}
+.middle-detail text{
+  position: relative;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  font-family: 'å¾®è½¯é›…é»‘';
+  font-weight: 400;
+  font-style: normal;
+  height: 40rpx;
+ top: -25rpx;
+ left: -20rpx;
+}

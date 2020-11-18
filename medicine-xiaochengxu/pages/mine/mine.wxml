@@ -1,0 +1,19 @@
+<!--pages/mine/mine.wxml-->
+<view class="login">
+  <view
+  wx:if="{{!islogin}}"
+  >
+  <navigator url="../login/login">
+<button 
+
+plain="">登录</button>
+</navigator>
+</view>
+
+<view wx:else="{{islogin}}" >
+  <view class="userinfo">
+   <image src="{{userInfo.avatarUrl}}" mode="widthFix" class="image"></image>
+   <text class="name">{{userInfo.nickName}}</text>
+  </view>
+</view>
+</view>
